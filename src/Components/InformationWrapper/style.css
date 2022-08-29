@@ -1,6 +1,38 @@
-.parent{
-    width: 500px;
-    height: 300px;
-    background-color: rgb(102, 90, 90,0.1);
-    border-radius: 20%;
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@300&display=swap');
+
+.informationWrapper{
+    width: 700px;
+    height: 400px;
+    background-image: url('https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(3px);
+    height: 400px;
+    width: 700px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.textStyle{
+    color:white;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.flexBox{
+    display: flex;
+    flex-direction: row;
+}   
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}   
+.cityWrapper{
+    margin: 50px 0;
 }
